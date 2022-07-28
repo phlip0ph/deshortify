@@ -4,7 +4,7 @@
 	"version": "1.0",
 
 	"description": "Automatically makes Youtube shorts appear as normal videos",
-	"homepage_url": "https://github.com/phlip0ph/deshortify"
+	"homepage_url": "https://github.com/phlip0ph/deshortify",
 
 	"icons": {
 		"48": "icon.png"
