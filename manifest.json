@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Deshortify",
+	"version": "1.0",
+
+	"description": "Automatically makes Youtube shorts appear as normal videos",
+
+	"icons": {
+		"48": "icon.png"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["*://*.youtube.com/shorts/*"],
+			"js": ["deshortify.js"]
+		}
+	]
+}
